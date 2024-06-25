@@ -1,0 +1,38 @@
+<h1>Login Form</h1>
+<form class="login-form">
+    <label>
+        Email
+        <input type="email" name="email" />
+    </label>
+    <br>
+    <label>
+        Password
+        <input type="password" name="password" />
+    </label>
+    <br>
+    <button type="submit">Log in</button>
+</form>
+
+<script>
+    document.querySelector('.login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Запобігаємо перезавантаженню сторінки
+
+        const formElements = event.target.elements;
+        const email = formElements.email.value.trim();
+        const password = formElements.password.value.trim();
+
+        if (email === '' || password === '') {
+            alert('All form fields must be filled in');
+            return;
+        }
+
+        const formData = {
+            email: email,
+            password: password
+        };
+
+        console.log(formData);
+
+        event.target.reset(); // Очищаємо форму
+    });
+</script>

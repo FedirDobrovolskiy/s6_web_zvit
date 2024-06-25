@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zvit.css" type="text/css">
+    <script src="zvit.js"></script>
+
+    <title>WEB-орієнт. тех</title>
+    
+</head>
+
+<body>
+   
+    <!-- Header -->
+    <header>
+        <img src="FOTO_DOC1.jpg" alt="photo" style="width: 100px; height: auto; float: right;">
+        <h1>Звіти з лабораторних робіт</h1>
+        <h2>З дисципліни "WEB-орієнтовані технології. Основи Frontend та Backend розробок"</h2>
+    </header>
+    <main>
+    <!-- Текст про автора -->
+    <div class="author-info">
+        <p>Студент групи ІО-12 Добровольський Федір Володимирович</p>
+    </div>
+
+    <!-- Меню-робіт -->
+    <div class="lab-menu">
+        <div class="lab-number">
+            <div onclick="displayContent(1)">Лабораторна<br>Робота №1</div>
+            <div onclick="displayContent(2)">Лабораторна<br>Робота №2</div>
+            <div onclick="displayContent(3)">Лабораторна<br>Робота №3</div>
+            <div onclick="displayContent(4)">Лабораторна<br>Робота №4</div>
+            <div onclick="displayContent(5)">Лабораторна<br>Робота №5</div>
+            <!-- <div onclick="displayContent(5.1)">Лабораторна<br>Робота №5.1</div> -->
+            <div onclick="displayContent(6)">Лабораторна<br>Робота №6</div>
+            <div onclick="displayContent(7)">Лабораторна<br>Робота №7</div>
+            <!-- <div onclick="displayContent(8)">Лабораторна<br>Робота №8</div>
+            <div onclick="displayContent(9)">Лабораторна<br>Робота №9</div> -->
+        </div>
+    </div>
+
+    <!-- Зміст роботи -->
+    <div class="report-content">
+        <!-- Місце для виведення інформації та меню змісту -->
+        <div class="info-display" id="info-display">
+            <!-- Тут буде відображатися меню змісту -->
+        </div>
+        <!-- Місце для змісту роботи -->
+        <div class="lab-content" id="lab-content">
+            <!-- Тут буде зміст лабораторної роботи -->
+        </div>
+    </div>
+    </main>
+
+ 
+    
+<script>
+function swapInputs() {
+var input1 = document.getElementById("input1");
+var input2 = document.getElementById("input2");
+var temp = input1.value;
+input1.value = input2.value;
+input2.value = temp;
+}
+</script>
+<script>
+function decreaseSize() {
+    var square = document.getElementById("square");
+    var currentWidth = square.offsetWidth;
+    var currentHeight = square.offsetHeight;
+    square.style.width = (currentWidth - 15) + "px";
+    square.style.height = (currentHeight - 15) + "px";
+}
+
+function increaseSize() {
+    var square = document.getElementById("square");
+    var currentWidth = square.offsetWidth;
+    var currentHeight = square.offsetHeight;
+    square.style.width = (currentWidth + 15) + "px";
+    square.style.height = (currentHeight + 15) + "px";
+}
+</script>
+<script>
+    function doubleValues() {
+        var listItems = document.querySelectorAll("#numberList li");
+        listItems.forEach(function(item) {
+            var currentValue = parseInt(item.textContent);
+            item.textContent = currentValue * 2;
+        });
+    }
+</script>
+<script>
+    document.querySelector('.login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Запобігаємо перезавантаженню сторінки
+
+        const formElements = event.target.elements;
+        const email = formElements.email.value.trim();
+        const password = formElements.password.value.trim();
+
+        if (email === '' || password === '') {
+            alert('All form fields must be filled in');
+            return;
+        }
+
+        const formData = {
+            email: email,
+            password: password
+        };
+
+        console.log(formData);
+
+        event.target.reset(); // Очищаємо форму
+    });
+</script>
+
+        
+ 
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+</head>
+<body>
+    <h1>Array Operations</h1>
+    <div id="output"></div>
+    <script>
+        // Функція для генерації одновимірного масиву з випадкових чисел
+        function generateRandomArray(length, min, max) {
+            let arr = [];
+            for (let i = 0; i < length; i++) {
+                let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+                arr.push(randomNum);
+            }
+            return arr;
+        }
+
+        // Генерація випадкового масиву
+        let array = generateRandomArray(10, -50, 50); // Змінити параметри за потреби
+
+        // Функція для знаходження найбільшого серед від’ємних та найменшого серед додатних елементів масиву
+        function findExtremes(arr) {
+            let maxNegative = null;
+            let minPositive = null;
+
+            arr.forEach(num => {
+                if (num < 0 && (maxNegative === null || num > maxNegative)) {
+                    maxNegative = num;
+                }
+                if (num > 0 && (minPositive === null || num < minPositive)) {
+                    minPositive = num;
+                }
+            });
+
+            return { maxNegative, minPositive };
+        }
+
+        // Функція для виведення результатів на екран
+        function displayResults(id, message) {
+            const outputDiv = document.getElementById(id);
+            const p = document.createElement('p');
+            p.textContent = message;
+            outputDiv.appendChild(p);
+        }
+
+        // Виклик функції та виведення результатів
+        let extremes = findExtremes(array);
+        displayResults('output', 'Найбільший серед від’ємних: ' + extremes.maxNegative);
+        displayResults('output', 'Найменший серед додатних: ' + extremes.minPositive);
+
+        // 2. Упорядкувати масив у порядку зменшення методом вибору
+        function selectionSortDescending(arr) {
+            let n = arr.length;
+            for (let i = 0; i < n - 1; i++) {
+                let maxIndex = i;
+                for (let j = i + 1; j < n; j++) {
+                    if (arr[j] > arr[maxIndex]) {
+                        maxIndex = j;
+                    }
+                }
+                if (maxIndex !== i) {
+                    let temp = arr[i];
+                    arr[i] = arr[maxIndex];
+                    arr[maxIndex] = temp;
+                }
+            }
+            return arr;
+        }
+
+        // Вхідний масив
+        displayResults('output', 'Вхідний масив: ' + array);
+
+        // Упорядкований масив
+        let sortedArray = selectionSortDescending(array.slice()); // використання slice() для створення копії масиву
+        displayResults('output', 'Упорядкований масив у порядку зменшення: ' + sortedArray);
+    </script>
+</body>
+</html>
