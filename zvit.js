@@ -625,8 +625,8 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №1</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
 
             `;
@@ -718,8 +718,8 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №2</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
                 
             `;
@@ -955,8 +955,8 @@ button:hover {
                 
             <h3>Місце розташування ЛР №3</h3>
             <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
                 
             `;
@@ -1106,8 +1106,8 @@ button:hover {
 
                 <h3>Місце розташування ЛР №4</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
                         
                 `;
@@ -1370,8 +1370,8 @@ footer {
         
                 <h3>Місце розташування ЛР №5</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Виконання завдання 1.</a> <a href="lab5/index.html" target="_blank">Сайт виконання завдання 1.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Виконання завдання 2.</a> <a href="lab5/index2.html" target="_blank">Сайт виконання завдання 2.</a></p>
@@ -1435,8 +1435,8 @@ footer {
         
                 <h3>Місце розташування ЛР №6</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
-                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="" target="_blank">Сайт проекту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_zvit" target="_blank">Звіт.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_zvit/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/FedirDobrovolskiy/s6_web_app" target="_blank">Проект.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_app/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/FedirDobrovolskiy/s6_web_resume" target="_blank">Резюме.</a> <a href="https://fedirdobrovolskiy.github.io/s6_web_resume/ " target="_blank">Сайт резюме.</a></p>
                                                                                                 
                 `;
